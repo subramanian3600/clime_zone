@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.WeatherForecast_page {
+  width: 1480px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+.WeatherForecast_page_top {
+  margin: 0 auto;
+  width: 1440px;
+  height: 80px;
+}
+.WeatherForecast_page_bottom {
+  margin: 0 auto;
+  width: 1440px;
+  height: 300px;
+}
+.WeatherForecast_page_top_search {
+  border-radius: 5px;
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fafafa;
+  width: 500px;
+  height: 60px;
+  float: left;
+}
+.WeatherForecast_page_top_search img {
+  background-color: #fafafa;
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+}
+.WeatherForecast_page_top_search input {
+  color: #c4c4c4;
+  font-size: 22px;
+  border: 1px solid #fafafa;
+  background-color: #fafafa;
+  margin: 4px;
+  width: 400px;
+  height: 50px;
+  outline: none;
+}
+.WeatherForecast_page_top_search button {
+  display: none;
+}
+.WeatherForecast_page_top_person {
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fafafa;
+  width: 300px;
+  height: 60px;
+  float: right;
+}
+.WeatherForecast_page_top_person img {
+  background-color: #fafafa;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+}
+.WeatherForecast_page_top_person_name {
+  padding: 10px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 50px;
+}
+.WeatherForecast_page_top_person_name button {
+  cursor: pointer;
+  margin: 0px 10px;
+  background-color: #fafafa;
+  outline: none;
+  border: 0;
+  width: 40px;
+  height: 40px;
+}
+.WeatherForecast_page_bottom {
+  text-align: left;
+}
+.WeatherForecast_page_bottom label {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+}
+.weatherforecast_city_cards {
+  padding: 10px;
+  width: 1400px;
+  height: 230px;
+  margin: 0 auto;
+}
+.weatherforecast_city_cards button {
+  border: transparent;
+  background-color: transparent;
+  outline: none;
+}
+.weatherforecast_city_card {
+  margin: 0 auto;
+  width: 260px;
+  height: 220px;
+  border-radius: 8px;
+}
+.weatherforecast_city_card img {
+  border-radius: 12px;
+  width: 240px;
+  height: 180px;
+  margin: 0 auto;
+}
+.weatherforecast_city_card label {
+  font-size: 22px;
+  text-align: center;
+}
+.to_show_here {
+  text-align: center;
+  display: block;
+  margin: 40px auto;
+  font-size: 30px;
+  width: 1000px;
+  height: 100px;
+}

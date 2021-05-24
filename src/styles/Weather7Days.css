@@ -1,0 +1,51 @@
+.display_7_days_page {
+  width: 1460px;
+  margin: 20px auto;
+  height: 250px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  text-align: left;
+}
+.display_7_days_page label {
+  margin: 30px 20px;
+  font-size: 28px;
+}
+.display_7_day_cards {
+  width: 1400px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.display_7_day_card {
+  color: black;
+  background-color: #c4c4c4;
+  width: 150px;
+  height: 180px;
+  border-radius: 8px;
+  margin: 10px 10px;
+}
+.display_7_day_card_image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 6px auto;
+}
+.display_7_day_card_temp {
+  padding: 10px 0px;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.display_7_day_card_date {
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.seven_day_display {
+  position: relative;
+  top: 40%;
+  font-size: 24px;
+  left: 30%;
+  text-align: center;
+}

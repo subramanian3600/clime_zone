@@ -1,0 +1,13 @@
+.Index_page {
+  width: 100%;
+  height: 100vh;
+  background-color: #252525;
+}
+.navbar_index_page {
+  float: left;
+}
+.dashboard_index_page {
+  height: 1080px;
+  width: 1520px;
+  float: right;
+}

@@ -1,0 +1,138 @@
+.NavBar_page {
+  font-size: 48px;
+  text-align: center;
+  width: 400px;
+  height: 1080px;
+  background-color: #e5e5e5;
+}
+.navbar_page_title {
+  padding: 20px;
+}
+.navbar_page_title a {
+  color: inherit;
+}
+
+.navbar_listitem {
+  color: black;
+  text-align: center;
+  height: 60px;
+}
+.navbar_listitem_title {
+  padding: 10px;
+  font-size: 24px;
+}
+.navbar_listitem:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(250, 250, 250, 1) 6%,
+    rgba(250, 250, 250, 1) 100%
+  );
+}
+.navbar_today_box {
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+  background-color: #fafafa;
+  width: 340px;
+  height: 450px;
+  border-radius: 8px;
+}
+.navbar_today_box_top {
+  width: 300px;
+  height: 120px;
+  margin: 0px auto;
+  padding: 10px;
+}
+.navbar_today_box_top_left {
+  background-color: #252525;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  float: left;
+}
+.navbar_today_box_top_right {
+  text-align: justify;
+  width: 180px;
+  height: 100px;
+  float: right;
+  margin: 10px auto;
+}
+.navbar_today_box_today {
+  color: #000000;
+  font-size: 24px;
+}
+.navbar_today_box_time {
+  color: #000000;
+  font-size: 22px;
+}
+.navbar_today_box_day {
+  color: #000000;
+  font-size: 22px;
+}
+.navbar_today_box_mid {
+  width: 300px;
+  height: 150px;
+  margin: 0 auto;
+}
+.navbar_today_box_mid_deg {
+  font-size: 48px;
+}
+.navbar_today_box_mid_city {
+  font-size: 22px;
+}
+.navbar_today_box_mid_country {
+  font-size: 16px;
+}
+.navbar_today_box_bottom {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  width: 260px;
+  height: 150px;
+  margin: 0 auto;
+}
+.navbar_today_box_bottom_humitidy {
+  padding: 10px;
+}
+.navbar_today_box_bottom_precipitation {
+  padding: 10px;
+}
+.navbar_today_box_bottom_humitidy label {
+  float: left;
+}
+.navbar_today_box_bottom_humitidy span {
+  float: right;
+}
+.navbar_today_box_bottom_humitidy_progress_bg {
+  border-radius: 4px;
+  background-color: #c4c4c4;
+  height: 10px;
+}
+.navbar_today_box_bottom_precipitation_progress_bg {
+  border-radius: 4px;
+  background-color: #c4c4c4;
+  height: 10px;
+}
+.navbar_today_box_bottom_humitidy_progress {
+  background-color: #252525;
+  height: 10px;
+}
+.navbar_today_box_bottom_precipitation label {
+  float: left;
+}
+.navbar_today_box_bottom_precipitation span {
+  float: right;
+}
+.navbar_today_box_bottom_precipitation_progress {
+  background-color: #252525;
+  width: 100%;
+  height: 10px;
+}
+.current_weather_display {
+  font-size: 22px;
+  padding: 10px;
+  position: relative;
+  top: 40%;
+  color: #252525;
+}
