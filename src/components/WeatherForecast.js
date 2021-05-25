@@ -18,7 +18,7 @@ function WeatherForecast() {
     if (country_name === "") {
       alert("add !");
     } else {
-      const climate_url = "http://api.openweathermap.org/data/2.5/weather?";
+      const climate_url = "https://api.openweathermap.org/data/2.5/weather?";
       const response = await axios
         .get(climate_url + `units=metric&q=${country_name}&appid=${api_id}`)
         .catch((err) => {
