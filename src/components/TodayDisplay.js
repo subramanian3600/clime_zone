@@ -53,7 +53,7 @@ export default function TodayDisplay() {
           ></div>
         </div>
         <div className="navbar_today_box_bottom_precipitation">
-          <label>Precipitaion</label>
+          <label>Cloudiness</label>
           <span>{current_city_details.clouds.all}%</span>
         </div>
         <div className="navbar_today_box_bottom_precipitation_progress_bg">
